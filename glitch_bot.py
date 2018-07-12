@@ -42,4 +42,4 @@ async def poorsucker(message):
 async def glitchbot(ctx):
     await bot.raw_mentions("You should be sleeping. GO TO BED! =/")
 
-bot.run("NDY2MzczMDg2Nzk1NzkyMzk3.DibHbw.bezdV7WAjGhKXmgpQAiTnq5xpEo")
+bot.run("Token")
