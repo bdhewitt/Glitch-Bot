@@ -36,7 +36,7 @@ async def poorsucker(message):
             word = word.group(1)
         else:
             await client.send_message(message.channel, str(message.author.mention))
-            await bot.send_message(message.channel, "{member} YOU SHOULD BE IN BED!")
+            await bot.send_message(message.channel, "YOU SHOULD BE IN BED!")
 
 @bot.command(pass_context=True)
 async def glitchbot(ctx):
